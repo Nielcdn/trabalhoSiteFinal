@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+@media screen and (max-width: 600px){
+    nav{display: grid;
+    justify-content: center;}
+}
+html {margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(burlywood,rgb(236, 173, 91));
+    font-family: 'Barlow', sans-serif;
+    }
+
+a {text-decoration: none;
+    color: black;}
+
+h1 {font-size:24px;
+    text-align:center;}
+h2 {font-size: 18px;
+    text-align:center;
+    text-decoration: none;}
+h3 {text-align:center;
+    font-size: 200%;}
+h4 {font-size: 21px;
+    text-align:left;
+    text-decoration: none;}
+p {font-size: 14px;
+    text-align:left}
+
+
+
+body {width:100%;
+    margin: 0px;
+    background-image: linear-gradient(burlywood,rgb(236, 173, 91))}
+
+
+header {float: left;
+    width: 100%;
+    border-top: 2px solid rgb(155, 82, 69);
+    border-bottom: 2px solid rgb(155, 82, 69);
+    background-image: linear-gradient(rgb(235, 114, 84),rgb(165, 71, 54));}
+
+.logo {float: left;
+    border: 1px solid brown;
+    max-width: 100%;
+    height: auto;}
+.banner {float: left;
+    width: 75%;
+    margin: auto;
+    padding-top: 10px;
+    border: 2px; font-family: 'Ms Madi', cursive;}
+.login {float: right;
+    margin:5px;
+    font-size: 16px}
+
+
+nav {width: 100%;
+    border-top: 2px solid rgb(126, 68, 58);
+    border-bottom: 2px solid rgb(126, 68, 58);
+    background-image: linear-gradient(rgb(146, 146, 146),rgb(177, 177, 177));
+    background-color:rgb(185, 161, 161);
+    display: grid;
+    flex-flow: row wrap;
+    }
+
+.menu {float: left;
+    height: 10%;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    transition: text-decoration 1s linear; }
+
+.menu:hover {text-decoration: underline;}
+
+main {width: 100%;
+    border-top: 4px inset rgb(245, 220, 174);
+    border-bottom: 4px inset rgb(245, 220, 174);
+    background-image: linear-gradient(wheat,rgb(230, 173, 100))}
+
+.pesquisa {
+    min-height: 25%;
+    margin: 5px;
+    display: grid;}
+fieldset {float: left;
+    border-width: 0px;
+    margin-left: 40px;}
+input[type=search] {
+    width: 60%;
+    height: 30px;
+    margin-bottom:10px;}
+input[type=submit] {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    margin-bottom:10px;
+    background: url("../img/lupa.png") no-repeat;}
+
+
+.pop {width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 5px;
+    border: 2px solid rgb(230, 148, 94);
+    border-radius: 50px;
+    background-color:rgb(253, 234, 197);
+    font-size: 20px ;}
+
+iframe {min-height: 200px;}
+
+footer {float: left;
+    width: 100%;
+    padding-left: 0px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-image: linear-gradient(rgb(236, 165, 95),peru);
+    justify-content:center;
+    display: grid;
+    grid-template-rows: auto auto auto auto;}
+
+.foot {float: left;
+    width: 285px;
+    margin: 10px 3px 5px 3px;
+    border: 2px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;}
