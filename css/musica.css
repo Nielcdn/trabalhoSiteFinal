@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+html {padding: 0px;
+    border: 2px;
+    background-image: linear-gradient(burlywood,rgb(236, 173, 91));
+    font-family: 'Barlow', sans-serif;
+    }
+
+a {text-decoration: none !important;
+    color: black !important;}
+
+h1 {font-size:24px;
+    text-align:center;}
+h2 {font-size: 18px;
+    text-align:center;
+    text-decoration: none;}
+h3 {text-align:center;}
+h4 {font-size: 21px;
+    text-align:left;
+    text-decoration: none;}
+p {font-size: 14px;
+    text-align:left}
+
+
+
+body {float: left;;
+    margin: 3px;
+    background-image: linear-gradient(burlywood,rgb(236, 173, 91))}
+
+
+header {float: left;
+    margin: 0px 0px 0px 30px;
+    border: 2px solid rgb(155, 82, 69);
+    background-image: linear-gradient(rgb(235, 114, 84),rgb(165, 71, 54));}
+
+.logo {float: left;
+    border: 2px solid brown;}
+.banner {float: left;
+    margin: auto;
+    padding-top: 20px;
+    border: 2px; font-family: 'Ms Madi', cursive;}
+.login {float: right;
+    margin:5px;
+    font-size: 16px}
+
+
+nav {float: left;
+    margin-left: 40px;
+    border: 2px solid rgb(126, 68, 58);
+    background-image: linear-gradient(rgb(146, 146, 146),rgb(177, 177, 177));
+    background-color:rgb(185, 161, 161)}
+
+.menu {float: left;
+    height: 50px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 18px;}
+
+
+main {float: left;
+    border: 4px inset rgb(245, 220, 174);
+    background-image: linear-gradient(wheat,rgb(230, 173, 100))}
+
+.filtro {float: right;
+    margin-left: 50px;
+    padding-top: 2px;
+    font-size: 20px;}
+
+.escolhas {float: left;
+    padding-top: 2px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color:dimgray;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;}
+ul input {width: 160px;
+    height: 18px;
+    font-size:12px;}
+
+ .pesquisa input[type="search"] {float: right;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    }
+
+.result {width: 1050px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:15px;
+    border: 2px solid brown;
+    background-color:rgb(253, 234, 197);
+    border-radius: 20px;}
+
+footer {float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    border: 2px solid gray;
+    background-image: linear-gradient(rgb(236, 165, 95),peru)}
+    
+.foot {float: left;
+    width: 285px;
+    height: 160px;
+    margin: 10px 3px 5px 3px;
+    border: 2px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;}
