@@ -124,10 +124,10 @@ main {width: 100%;
 
 fieldset {min-height: 30vw;
     border: 2px solid gray;
-    display: grid;
-    gap: 2vw;}
+    display: grid;}
 input{min-width: 50vw;
     height: 5vh;}
+label{padding-top: 2%;}
 
 
 footer {width: 100%;

@@ -11,6 +11,9 @@
         grid-template-columns: auto;
         justify-content: space-evenly;
         align-content:center;}
+
+
+
 }
 @media screen and (min-width: 600px){
     nav{display: grid;
@@ -40,9 +43,82 @@
     100% {opacity: 1;}
 }
 
-
-
-
+@keyframes animaA {
+    0% {transform: translate(0px,0px);}
+    5% {transform: translate(0,150px); width:75px; height: 115px;}
+    10% {background-color: crimson;}
+    12.5% {background-color:greenyellow;}
+    15% {background-color: darkorange;}
+    17.5% {background-color:blueviolet;}
+    20% {transform: translate(0px,0px);}
+    25% {transform: rotate(180deg);}
+    30% {transform: rotate(360deg);}
+    40% {transform: translate(-150px,150px);}
+    50% {transform: translate(0px,300px);}
+    60% {transform: translate(150px,150px);}
+    70% {transform: translate(0px,0px); border: 0px; color: black;}
+    80% {transform: translate(-150px,0px); border-width: 2px 2px 2px 0px; border-style: solid; border-color: white;}
+    85% {transform: translate(-150px,-30px); color: aliceblue;}
+    90% {transform: translate(-150px,0px);}
+    100% {transform: translate(0px,0px);}
+}
+@keyframes animaR {
+    0% {transform: translate(0px,-100px);}
+    5% {transform: translate(0,50px); width:70px; height: 110px;}
+    10% {background-color: blueviolet;}
+    12.5% {background-color:crimson;}
+    15% {background-color: greenyellow;}
+    17.5% {background-color:darkorange;}
+    20% {transform: translate(-150px,50px);}
+    25% {transform: rotate(180deg);}
+    30% {transform: rotate(360deg);}
+    40% {transform: translate(0px,200px);}
+    50% {transform: translate(150px,50px);}
+    60% {transform: translate(0px,-100px);}
+    70% {transform: translate(0px,0px); border: 0px; color: black;}
+    82.5% {transform: translate(-70px,-100px); border-width: 2px 2px 2px 0px; border-style: solid; border-color: white;}
+    87.5% {transform: translate(-70px,-130px); color: aliceblue;}
+    92.5% {transform: translate(-70px,-100px);}
+    100% {transform: translate(0px,0px);}
+}
+@keyframes animaT {
+    0% {transform: translate(0px,-200px);}
+    5% {transform: translate(0,-50px); width:65px; height: 105px;}
+    10% {background-color: darkorange;}
+    12.5% {background-color:blueviolet;}
+    15% {background-color: crimson;}
+    17.5% {background-color:greenyellow;}
+    20% {transform: translate(0px,100px);}
+    25% {transform: rotate(180deg);}
+    30% {transform: rotate(360deg);}
+    40% {transform: translate(150px,-50px);}
+    50% {transform: translate(0px,-200px);}
+    60% {transform: translate(0px,-100px);}
+    70% {transform: translate(0px,0px); border: 0px; color: black;}
+    85% {transform: translate(10px,-200px); border-width: 2px 2px 2px 0px; border-style: solid; border-color: white;}
+    90% {transform: translate(10px,-230px); color: aliceblue;}
+    95% {transform: translate(10px,-200px);}
+    100% {transform: translate(0px,0px);}
+}
+@keyframes animaE {
+    0% {transform: translate(0px,-300px);}
+    5% {transform: translate(0,-150px);}
+    10% {background-color: greenyellow;}
+    12.5% {background-color:darkorange;}
+    15% {background-color: blueviolet;}
+    17.5% {background-color:crimson;}
+    20% {transform: translate(150px,-150px);}
+    25% {transform: rotate(180deg);}
+    30% {transform: rotate(360deg);}
+    40% {transform: translate(0px,-300px);}
+    50% {transform: translate(-150px,-150px);}
+    60% {transform: translate(0px,0px);}
+    70% {transform: translate(150px,-150px); border: 0px; color: black;}
+    87.5% {transform: translate(90px,-300px); border-width: 2px 2px 2px 0px; border-style: solid; border-color: white;}
+    92.5% {transform: translate(90px,-330px); color: aliceblue;}
+    97.5% {transform: translate(90px,-300px);}
+    100% {transform: translate(0px,0px);}
+}
 
 html {margin: 0px;
     padding: 0px;
@@ -122,36 +198,73 @@ main {width: 100%;
     border-bottom: 4px inset rgb(245, 220, 174);
     background-image: linear-gradient(wheat,rgb(230, 173, 100))}
 
-.pesquisa {
-    min-height: 25%;
-    margin: 5px;
-    display: grid;}
-fieldset {border-width: 0px;
-    margin-left: 20px;}
-input[type=search] {
-    width: 60%;
-    height: 30px;
-    margin-bottom:10px;}
-input[type=submit] {
-    width: 30px;
-    height: 30px;
-    border: 1px solid white;
-    margin-bottom:10px;
-    background: url("../img/lupa.png") no-repeat;}
-
-
 .pop {width: 75%;
+    min-height: 60vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    padding: 5px;
+    padding: 25px;
     border: 2px solid rgb(230, 148, 94);
     border-radius: 50px;
-    background-color:rgb(253, 234, 197);
+    background-color:rgb(179, 145, 94);
     font-size: 20px ;
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+    }
+
+    .dA {position: relative;
+        width: 60px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .dR {position: relative;
+        width: 60px;
+        height: 100px;
+        transform: translate(0px,-100px); 
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .dT {position: relative;
+        width: 60px;
+        height: 100px;
+        transform: translate(0px,-200px); 
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .dE {position: relative;
+        width: 60px;
+        height: 100px;
+        transform: translate(0px,-300px); 
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+.dA {background-color: saddlebrown;
+    transition: translate 10s linear;
+    
+    animation: animaA 20s 1s 2 forwards}
+
+.dR {background-color: saddlebrown;
+    transition: translate 10s linear;
+    
+    animation: animaR 20s 1s 2 forwards;}
+
+.dT {background-color: saddlebrown;
+    transition: translate 10s linear;
+        
+    animation: animaT 20s 1s 2 forwards;}
+
+.dE {background-color: saddlebrown;
+    transition: translate 10s linear;
+
+    animation: animaE 20s 1s 2 forwards;}
+
 
 figure img {border: 4px solid sienna;
             width:100%;
