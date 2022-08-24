@@ -5,10 +5,21 @@
     nav{display: grid;
     justify-content: center;}
 
-    .linha {border: 1px solid white;
-        background-color: white;}
-    .menu {display: none}
-    .menu_active {display: block;}
+    .icon {width: 25px;
+        height: 30px;
+        margin-right: 10px;
+        position: relative;
+        cursor: pointer;}
+
+    .linha {
+        background: rgba(255, 255, 255, 1);
+        left: 0;
+        min-width: 20px;
+        height: 3px;
+        padding-top: 10px;
+        border-radius: 4px;}
+
+    .items {display: none;}
 
     iframe {min-height: 200px; width: 100%}
     figure {min-height: 200px;}
@@ -18,7 +29,7 @@
         justify-content: space-evenly;
         align-content:center;}
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 601px){
     nav{display: grid;
         grid-template-rows: auto;
         grid-template-columns: auto auto auto auto auto;
@@ -132,6 +143,15 @@ main {width: 100%;
     border-top: 4px inset rgb(245, 220, 174);
     border-bottom: 4px inset rgb(245, 220, 174);
     background-image: linear-gradient(wheat,rgb(230, 173, 100))}
+
+.parte1 {display: none;}
+
+.parte2 {display: none;}
+
+.parte3 {display: none;}
+
+.erros {color: rgb(207, 13, 13);}
+
 
 fieldset {min-height: 30vw;
     border: 2px solid gray;
